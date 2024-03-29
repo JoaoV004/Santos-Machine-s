@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///C:/Users/Marise%20Miranda/Downloads/Marises%20Machine.html -->
+<html lang="en">
+
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body bgcolor="#2F4F4F">
+        <h1>Santos Machine's ⚽</h1>
+        <div class="pai">
+                <div class="decimal">
+                        <center>
+
+                                <h3>Decimal</h3>
+                                <input id="demoDecimal1" type="text" placeholder="Digite o valor em decimal">
+
+                                <br><br>
+
+                                <h3>converter para:</h3>
+
+
+                                <input onclick="aparecer_octal()" type="checkbox"><b>Octal</b>
+                                <br>
+                                <div style="display: none; background-color: #dcdcdc; border-radius: 5px; padding: 5px; color: rgb(0, 0, 0); width: 15%; height: 40px; font-weight: 500;"
+                                        id="demoDecimal2"></div>
+
+                                <br><br>
+
+                                <input onclick="aparecer_hexa()" type="checkbox"><b>Hexadecimal</b>
+                                <br>
+                                <div style="display: none;
+                                background-color: #dcdcdc;
+                                border-radius: 5px; 
+                                padding: 5px; color: rgb(7, 7, 7);
+                                width: 15%; 
+                                height: 40px;
+                                font-weight: 500;"
+                                id="demoDecimal3"></div>
+
+                                <br><br>
+
+                                <input onclick="aparecer_bin()" type="checkbox"><b>Binário</b>
+                                <br>
+                                <div style="display: none;
+                                background-color: #dcdcdc;
+                                border-radius: 5px;
+                                padding: 5px;
+                                color: rgb(5, 5, 5); 
+                                width: 60%; height: 50px; 
+                                font-weight: 500;"
+                                id="demoDecimal4"></div>
+
+                                <br><br>
+
+                                <button onclick="converterDecimal()">Converter</button>
+                        </center>
+
+                </div>
+                <div class="octal">
+                        <center>
+
+                                <h3>Octal</h3>
+                                <input id="demoOctal1" type="text" placeholder="Digite o valor em Octal">
+
+                                <br><br>
+
+                                <h3>converter para:</h3>
+
+
+                                <input onclick="aparecer_Octal_decimal()" type="checkbox"><b>Decimal</b>
+                                <br>
+                                <div style="display: none; 
+                                background-color: #dcdcdc; 
+                                border-radius: 5px; 
+                                padding: 5px; color: rgb(0, 0, 0); 
+                                width: 15%; 
+                                height: 40px; 
+                                font-weight: 500;"
+                                id="demoOctal2"></div>
+
+                                <br><br>
+
+                                <input onclick="aparecer_Octal_hexa()" type="checkbox"><b>Hexadecimal</b>
+                                <br>
+                                <div style="display: none; background-color: #dcdcdc; border-radius: 5px; padding: 5px; color: rgb(7, 7, 7); width: 15%; height: 40px; font-weight: 500;"
+                                        id="demoOctal3"></div>
+
+                                <br><br>
+
+                                <input onclick="aparecer_Octal_bin()" type="checkbox"><b>Binário</b>
+                                <br>
+                                <div style="display: none; background-color: #dcdcdc; border-radius: 5px; padding: 5px; color: rgb(5, 5, 5); width: 60%; height: 50px; font-weight: 500;"
+                                        id="demoOctal4"></div>
+
+                                <br><br>
+
+                                <button onclick="converterOctal()">Converter</button>
+                        </center>
+
+                </div>
+                <div class="hexadecimal">
+                        <center>
+                                <h3>Hexadecimal</h3>
+                                <input id="demoHexa1" type="text" placeholder="Digite o valor em Hexadecimal">
+
+                                <br><br>
+
+                                <h3>converter para:</h3>
+
+
+                                <input onclick="aparecer_Hexa_octal()" type="checkbox"><b>Octal</b>
+                                <br>
+                                <div style="display: none; 
+                                background-color: #dcdcdc; 
+                                border-radius: 5px; 
+                                padding: 5px; color: rgb(0, 0, 0); 
+                                width: 15%; 
+                                height: 40px; 
+                                font-weight: 500;"
+                                id="demoHexa2"></div>
+
+                                <br><br>
+
+                                <input onclick="aparecer_Hexa_decimal()" type="checkbox"><b>Decimal</b>
+                                <br>
+                                <div style="display: none;
+                                background-color: #dcdcdc;
+                                border-radius: 5px;
+                                padding: 5px; 
+                                color: rgb(7, 7, 7); 
+                                width: 15%; 
+                                height: 40px; 
+                                font-weight: 500;"
+                                id="demoHexa3"></div>
+
+                                <br><br>
+
+                                <input onclick="aparecer_Hexa_binario()" type="checkbox"><b>Binário</b>
+                                <br>
+                                <div style="display: none; 
+                                background-color: #dcdcdc; 
+                                border-radius: 5px; 
+                                padding: 5px; 
+                                color: rgb(5, 5, 5); 
+                                width: 60%; 
+                                height: 50px; 
+                                font-weight: 500;"
+                                id="demoHexa4"></div>
+
+                                <br><br>
+
+                                <button onclick="converterHexadecimal()">Converter</button>
+                        </center>
+
+                </div>
+                <div class="binario">
+                        <center>
+
+                                <h3>Bínario</h3>
+                                <input id="demoBin1" type="text" placeholder="Digite o valor em Bínario">
+
+                                <br><br>
+
+                                <h3>converter para:</h3>
+
+
+                                <input onclick="aparecer_Binario_octal()" type="checkbox"><b>Octal</b>
+                                <br>
+                                <div style="display: none; 
+                                background-color: #dcdcdc; 
+                                border-radius: 5px; 
+                                padding: 5px; 
+                                color: rgb(0, 0, 0); 
+                                width: 15%; 
+                                height: 40px; 
+                                font-weight: 500;"
+                                id="demoBin2"></div>
+
+                                <br><br>
+
+                                <input onclick="aparecer_Binario_hexa()" type="checkbox"><b>Hexadecimal</b>
+                                <br>
+                                <div style="display: none; 
+                                background-color: #dcdcdc; 
+                                border-radius: 5px; 
+                                padding: 5px; 
+                                color: rgb(7, 7, 7); 
+                                width: 15%; 
+                                height: 40px; 
+                                font-weight: 500;"
+                                id="demoBin3"></div>
+
+                                <br><br>
+
+                                <input onclick="aparecer_Binario_decimal()" type="checkbox"><b>Decimal</b>
+                                <br>
+                                <div style="display: none; background-color: #dcdcdc; border-radius: 5px; padding: 5px; color: rgb(5, 5, 5); width: 60%; height: 50px; font-weight: 500;"
+                                        id="demoBin4"></div>
+
+                                <br><br>
+
+                                <button onclick="converterBinario()">Converter</button>
+                        </center>
+
+                </div>
+        </div>
+</body>
+
+</html>
+
+<script src="script.js"></script>

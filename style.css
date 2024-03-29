@@ -1,0 +1,88 @@
+.pai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+
+.decimal {
+    display: flex;
+    border-radius: 8px;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 100%;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+}
+
+
+.octal {
+
+    display: flex;
+    border-radius: 8px;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 100%;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+}
+
+.hexadecimal {
+
+    display: flex;
+    border-radius: 8px;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 100%;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+}
+
+.binario {
+
+    display: flex;
+    border-radius: 8px;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 100%;
+}
+
+
+body {
+
+    margin: 0;
+    background-color: white;
+    color: white;
+    background: linear-gradient(45deg, #e2dddd 0%, rgb(241, 230, 214) 100%);
+    background: linear-gradient(45deg, #ffffff, rgb(238, 221, 200));
+    animation: gradient 10s ease infinite;
+    background-size: 200% 200%;
+
+}
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+button {
+
+    cursor: pointer;
+    padding: 13px 30px;  
+    border-radius: 10px;  
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: gray;
+}
