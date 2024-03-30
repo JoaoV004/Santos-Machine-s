@@ -1,3 +1,8 @@
+window.sr = ScrollReveal({ reset: true });
+
+sr.reveal('.title', { duration: 1500});
+
+sr.reveal('.decimal', { duration: 3000});
 function converterDecimal() {
 
     let decimal = Number(demoDecimal1.value);
@@ -20,6 +25,7 @@ function converterDecimal() {
 
 
 }
+sr.reveal('.Jogador', { duration: 5000});
 
 function aparecer_bin() {
     demoDecimal4.style.display = 'block'
@@ -34,7 +40,7 @@ function aparecer_octal() {
 }
 
 
-
+sr.reveal('.octal', { duration: 3000});
 function converterOctal() {
 
     let octal = Number(demoOctal1.value);

@@ -6,106 +6,118 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Santos Machine's</title>
+        <script src="https://unpkg.com/scrollreveal"></script>
         <link rel="stylesheet" href="style.css">
 </head>
 
 <body bgcolor="#2F4F4F">
-        <h1>Santos Machine's ⚽</h1>
+        <h1 class="title">SANTOS MACHINE's ⚽</h1>
         <div class="pai">
-                <div class="decimal">
-                        <center>
+                <div class="separacaoDecimal">
+                        <div class="decimal">
+                                <center>
 
-                                <h3>Decimal</h3>
-                                <input id="demoDecimal1" type="text" placeholder="Digite o valor em decimal">
+                                        <h2>Decimal</h2>
+                                        <input id="demoDecimal1" type="text" placeholder="Digite o valor em decimal">
 
-                                <br><br>
+                                        <br><br>
 
-                                <h3>converter para:</h3>
+                                        <h3 class="subTitulos">converter para:</h3>
 
 
-                                <input onclick="aparecer_octal()" type="checkbox"><b>Octal</b>
-                                <br>
-                                <div style="display: none; background-color: #dcdcdc; border-radius: 5px; padding: 5px; color: rgb(0, 0, 0); width: 15%; height: 40px; font-weight: 500;"
-                                        id="demoDecimal2"></div>
+                                        <input onclick="aparecer_octal()" type="checkbox"><b>Octal</b>
+                                        <br>
+                                        <div style="display: none; background-color: #dcdcdc; border-radius: 5px; padding: 5px; color: rgb(0, 0, 0); width: 15%; height: 40px; font-weight: 500;"
+                                                id="demoDecimal2"></div>
 
-                                <br><br>
+                                        <br><br>
 
-                                <input onclick="aparecer_hexa()" type="checkbox"><b>Hexadecimal</b>
-                                <br>
-                                <div style="display: none;
+                                        <input onclick="aparecer_hexa()" type="checkbox"><b>Hexadecimal</b>
+                                        <br>
+                                        <div style="display: none;
                                 background-color: #dcdcdc;
                                 border-radius: 5px; 
                                 padding: 5px; color: rgb(7, 7, 7);
                                 width: 15%; 
                                 height: 40px;
-                                font-weight: 500;"
-                                id="demoDecimal3"></div>
+                                font-weight: 500;" id="demoDecimal3"></div>
 
-                                <br><br>
+                                        <br><br>
 
-                                <input onclick="aparecer_bin()" type="checkbox"><b>Binário</b>
-                                <br>
-                                <div style="display: none;
+                                        <input onclick="aparecer_bin()" type="checkbox"><b>Binário</b>
+                                        <br>
+                                        <div style="display: none;
                                 background-color: #dcdcdc;
                                 border-radius: 5px;
                                 padding: 5px;
                                 color: rgb(5, 5, 5); 
                                 width: 60%; height: 50px; 
-                                font-weight: 500;"
-                                id="demoDecimal4"></div>
+                                font-weight: 500;" id="demoDecimal4"></div>
 
-                                <br><br>
+                                        <br><br>
 
-                                <button onclick="converterDecimal()">Converter</button>
-                        </center>
+                                        <button onclick="converterDecimal()">Converter</button>
+                                </center>
 
+                        </div>
+
+                        <section id="imgJogador">
+                                <img src="images/jogador.svg" class="jogador" alt="">
+                        </section>
                 </div>
-                <div class="octal">
-                        <center>
+                <h1 class="title">SANTOS MACHINE's ⚽</h1>
+                <div class="separacaoOctal">
+                        
+                        <div class="octal">
+                                <center>
 
-                                <h3>Octal</h3>
-                                <input id="demoOctal1" type="text" placeholder="Digite o valor em Octal">
+                                        <h2>Octal</h2>
+                                        <input id="demoOctal1" type="text" placeholder="Digite o valor em Octal">
 
-                                <br><br>
+                                        <br><br>
 
-                                <h3>converter para:</h3>
+                                        <h3>converter para:</h3>
 
 
-                                <input onclick="aparecer_Octal_decimal()" type="checkbox"><b>Decimal</b>
-                                <br>
-                                <div style="display: none; 
+                                        <input onclick="aparecer_Octal_decimal()" type="checkbox"><b>Decimal</b>
+                                        <br>
+                                        <div style="display: none; 
                                 background-color: #dcdcdc; 
                                 border-radius: 5px; 
                                 padding: 5px; color: rgb(0, 0, 0); 
                                 width: 15%; 
                                 height: 40px; 
-                                font-weight: 500;"
-                                id="demoOctal2"></div>
+                                font-weight: 500;" id="demoOctal2"></div>
 
-                                <br><br>
+                                        <br><br>
 
-                                <input onclick="aparecer_Octal_hexa()" type="checkbox"><b>Hexadecimal</b>
-                                <br>
-                                <div style="display: none; background-color: #dcdcdc; border-radius: 5px; padding: 5px; color: rgb(7, 7, 7); width: 15%; height: 40px; font-weight: 500;"
-                                        id="demoOctal3"></div>
+                                        <input onclick="aparecer_Octal_hexa()" type="checkbox"><b>Hexadecimal</b>
+                                        <br>
+                                        <div style="display: none; background-color: #dcdcdc; border-radius: 5px; padding: 5px; color: rgb(7, 7, 7); width: 15%; height: 40px; font-weight: 500;"
+                                                id="demoOctal3"></div>
 
-                                <br><br>
+                                        <br><br>
 
-                                <input onclick="aparecer_Octal_bin()" type="checkbox"><b>Binário</b>
-                                <br>
-                                <div style="display: none; background-color: #dcdcdc; border-radius: 5px; padding: 5px; color: rgb(5, 5, 5); width: 60%; height: 50px; font-weight: 500;"
-                                        id="demoOctal4"></div>
+                                        <input onclick="aparecer_Octal_bin()" type="checkbox"><b>Binário</b>
+                                        <br>
+                                        <div style="display: none; background-color: #dcdcdc; border-radius: 5px; padding: 5px; color: rgb(5, 5, 5); width: 60%; height: 50px; font-weight: 500;"
+                                                id="demoOctal4"></div>
 
-                                <br><br>
+                                        <br><br>
 
-                                <button onclick="converterOctal()">Converter</button>
-                        </center>
+                                        <button onclick="converterOctal()">Converter</button>
+                                </center>
 
+                        </div>
+                        <section id="imgJogador" class="jogador">
+                                <img src="images/jogador.svg" alt="">
+                        </section>
                 </div>
+                <h1 class="title">SANTOS MACHINE's ⚽</h1>
                 <div class="hexadecimal">
                         <center>
-                                <h3>Hexadecimal</h3>
+                                <h2>Hexadecimal</h2>
                                 <input id="demoHexa1" type="text" placeholder="Digite o valor em Hexadecimal">
 
                                 <br><br>
@@ -121,8 +133,7 @@
                                 padding: 5px; color: rgb(0, 0, 0); 
                                 width: 15%; 
                                 height: 40px; 
-                                font-weight: 500;"
-                                id="demoHexa2"></div>
+                                font-weight: 500;" id="demoHexa2"></div>
 
                                 <br><br>
 
@@ -135,8 +146,7 @@
                                 color: rgb(7, 7, 7); 
                                 width: 15%; 
                                 height: 40px; 
-                                font-weight: 500;"
-                                id="demoHexa3"></div>
+                                font-weight: 500;" id="demoHexa3"></div>
 
                                 <br><br>
 
@@ -149,8 +159,7 @@
                                 color: rgb(5, 5, 5); 
                                 width: 60%; 
                                 height: 50px; 
-                                font-weight: 500;"
-                                id="demoHexa4"></div>
+                                font-weight: 500;" id="demoHexa4"></div>
 
                                 <br><br>
 
@@ -158,10 +167,11 @@
                         </center>
 
                 </div>
+                <h1 class="title">SANTOS MACHINE's ⚽</h1>
                 <div class="binario">
                         <center>
 
-                                <h3>Bínario</h3>
+                                <h2>Bínario</h2>
                                 <input id="demoBin1" type="text" placeholder="Digite o valor em Bínario">
 
                                 <br><br>
@@ -178,8 +188,7 @@
                                 color: rgb(0, 0, 0); 
                                 width: 15%; 
                                 height: 40px; 
-                                font-weight: 500;"
-                                id="demoBin2"></div>
+                                font-weight: 500;" id="demoBin2"></div>
 
                                 <br><br>
 
@@ -192,8 +201,7 @@
                                 color: rgb(7, 7, 7); 
                                 width: 15%; 
                                 height: 40px; 
-                                font-weight: 500;"
-                                id="demoBin3"></div>
+                                font-weight: 500;" id="demoBin3"></div>
 
                                 <br><br>
 
