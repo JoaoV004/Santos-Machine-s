@@ -1,12 +1,13 @@
 .pai {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     gap: 100px;
     margin-left: 100px;
     margin-top: 150px;
     margin-bottom: 100px;
     color:black;
+    align-items: center;
 }
 
 
@@ -32,6 +33,19 @@
     justify-content: center;
     flex-direction: row;
 }
+
+.separacaoHexadecimal {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.separacaoBinario {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 
 .title {
     visibility: hidden;
@@ -80,10 +94,9 @@
 body {
 
     margin: 0;
-    background-color: white;
     color: white;
-    background: linear-gradient(45deg, #e2dddd 0%, rgb(241, 230, 214) 100%);
-    background: linear-gradient(45deg, #ffffff, rgb(238, 221, 200));
+    background-color: linear-gradient(45deg, #000000 0%, rgb(241, 230, 214) 100%);
+    background-color: linear-gradient(45deg, #131111, rgb(238, 221, 200));
     animation: gradient 10s ease infinite;
     background-size: 200% 200%;
 

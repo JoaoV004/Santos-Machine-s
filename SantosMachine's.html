@@ -63,7 +63,7 @@
                         </div>
 
                         <section id="imgJogador">
-                                <img src="images/jogador.svg" class="jogador" alt="">
+                                <img src="images/jogador.svg" class="jogador" alt="" style="height: 411px;">
                         </section>
                 </div>
                 <h1 class="title">SANTOS MACHINE's ⚽</h1>
@@ -111,110 +111,120 @@
 
                         </div>
                         <section id="imgJogador" class="jogador">
-                                <img src="images/jogador.svg" alt="">
+                                <img src="images/jogador.svg" alt="" style="height: 411px;">
                         </section>
                 </div>
                 <h1 class="title">SANTOS MACHINE's ⚽</h1>
-                <div class="hexadecimal">
-                        <center>
-                                <h2>Hexadecimal</h2>
-                                <input id="demoHexa1" type="text" placeholder="Digite o valor em Hexadecimal">
-
-                                <br><br>
-
-                                <h3>converter para:</h3>
-
-
-                                <input onclick="aparecer_Hexa_octal()" type="checkbox"><b>Octal</b>
-                                <br>
-                                <div style="display: none; 
-                                background-color: #dcdcdc; 
-                                border-radius: 5px; 
-                                padding: 5px; color: rgb(0, 0, 0); 
-                                width: 15%; 
-                                height: 40px; 
-                                font-weight: 500;" id="demoHexa2"></div>
-
-                                <br><br>
-
-                                <input onclick="aparecer_Hexa_decimal()" type="checkbox"><b>Decimal</b>
-                                <br>
-                                <div style="display: none;
-                                background-color: #dcdcdc;
-                                border-radius: 5px;
-                                padding: 5px; 
-                                color: rgb(7, 7, 7); 
-                                width: 15%; 
-                                height: 40px; 
-                                font-weight: 500;" id="demoHexa3"></div>
-
-                                <br><br>
-
-                                <input onclick="aparecer_Hexa_binario()" type="checkbox"><b>Binário</b>
-                                <br>
-                                <div style="display: none; 
-                                background-color: #dcdcdc; 
-                                border-radius: 5px; 
-                                padding: 5px; 
-                                color: rgb(5, 5, 5); 
-                                width: 60%; 
-                                height: 50px; 
-                                font-weight: 500;" id="demoHexa4"></div>
-
-                                <br><br>
-
-                                <button onclick="converterHexadecimal()">Converter</button>
-                        </center>
-
+                <div class="separacaoHexadecimal">
+                        <div class="hexadecimal">
+                                <center>
+                                        <h2>Hexadecimal</h2>
+                                        <input id="demoHexa1" type="text" placeholder="Digite o valor em Hexadecimal">
+        
+                                        <br><br>
+        
+                                        <h3>converter para:</h3>
+        
+        
+                                        <input onclick="aparecer_Hexa_octal()" type="checkbox"><b>Octal</b>
+                                        <br>
+                                        <div style="display: none; 
+                                        background-color: #dcdcdc; 
+                                        border-radius: 5px; 
+                                        padding: 5px; color: rgb(0, 0, 0); 
+                                        width: 15%; 
+                                        height: 40px; 
+                                        font-weight: 500;" id="demoHexa2"></div>
+        
+                                        <br><br>
+        
+                                        <input onclick="aparecer_Hexa_decimal()" type="checkbox"><b>Decimal</b>
+                                        <br>
+                                        <div style="display: none;
+                                        background-color: #dcdcdc;
+                                        border-radius: 5px;
+                                        padding: 5px; 
+                                        color: rgb(7, 7, 7); 
+                                        width: 15%; 
+                                        height: 40px; 
+                                        font-weight: 500;" id="demoHexa3"></div>
+        
+                                        <br><br>
+        
+                                        <input onclick="aparecer_Hexa_binario()" type="checkbox"><b>Binário</b>
+                                        <br>
+                                        <div style="display: none; 
+                                        background-color: #dcdcdc; 
+                                        border-radius: 5px; 
+                                        padding: 5px; 
+                                        color: rgb(5, 5, 5); 
+                                        width: 60%; 
+                                        height: 50px; 
+                                        font-weight: 500;" id="demoHexa4"></div>
+        
+                                        <br><br>
+        
+                                        <button onclick="converterHexadecimal()">Converter</button>
+                                </center>
+        
+                        </div>
+                        <section id="imgJogador" class="jogador">
+                                <img src="images/jogador.svg" alt="" style="height: 411px;">
+                        </section>
                 </div>
                 <h1 class="title">SANTOS MACHINE's ⚽</h1>
-                <div class="binario">
-                        <center>
-
-                                <h2>Bínario</h2>
-                                <input id="demoBin1" type="text" placeholder="Digite o valor em Bínario">
-
-                                <br><br>
-
-                                <h3>converter para:</h3>
-
-
-                                <input onclick="aparecer_Binario_octal()" type="checkbox"><b>Octal</b>
-                                <br>
-                                <div style="display: none; 
-                                background-color: #dcdcdc; 
-                                border-radius: 5px; 
-                                padding: 5px; 
-                                color: rgb(0, 0, 0); 
-                                width: 15%; 
-                                height: 40px; 
-                                font-weight: 500;" id="demoBin2"></div>
-
-                                <br><br>
-
-                                <input onclick="aparecer_Binario_hexa()" type="checkbox"><b>Hexadecimal</b>
-                                <br>
-                                <div style="display: none; 
-                                background-color: #dcdcdc; 
-                                border-radius: 5px; 
-                                padding: 5px; 
-                                color: rgb(7, 7, 7); 
-                                width: 15%; 
-                                height: 40px; 
-                                font-weight: 500;" id="demoBin3"></div>
-
-                                <br><br>
-
-                                <input onclick="aparecer_Binario_decimal()" type="checkbox"><b>Decimal</b>
-                                <br>
-                                <div style="display: none; background-color: #dcdcdc; border-radius: 5px; padding: 5px; color: rgb(5, 5, 5); width: 60%; height: 50px; font-weight: 500;"
-                                        id="demoBin4"></div>
-
-                                <br><br>
-
-                                <button onclick="converterBinario()">Converter</button>
-                        </center>
-
+                <div class="separacaoBinario">
+                        <div class="binario">
+                                <center>
+        
+                                        <h2>Bínario</h2>
+                                        <input id="demoBin1" type="text" placeholder="Digite o valor em Bínario">
+        
+                                        <br><br>
+        
+                                        <h3>converter para:</h3>
+        
+        
+                                        <input onclick="aparecer_Binario_octal()" type="checkbox"><b>Octal</b>
+                                        <br>
+                                        <div style="display: none; 
+                                        background-color: #dcdcdc; 
+                                        border-radius: 5px; 
+                                        padding: 5px; 
+                                        color: rgb(0, 0, 0); 
+                                        width: 15%; 
+                                        height: 40px; 
+                                        font-weight: 500;" id="demoBin2"></div>
+        
+                                        <br><br>
+        
+                                        <input onclick="aparecer_Binario_hexa()" type="checkbox"><b>Hexadecimal</b>
+                                        <br>
+                                        <div style="display: none; 
+                                        background-color: #dcdcdc; 
+                                        border-radius: 5px; 
+                                        padding: 5px; 
+                                        color: rgb(7, 7, 7); 
+                                        width: 15%; 
+                                        height: 40px; 
+                                        font-weight: 500;" id="demoBin3"></div>
+        
+                                        <br><br>
+        
+                                        <input onclick="aparecer_Binario_decimal()" type="checkbox"><b>Decimal</b>
+                                        <br>
+                                        <div style="display: none; background-color: #dcdcdc; border-radius: 5px; padding: 5px; color: rgb(5, 5, 5); width: 60%; height: 50px; font-weight: 500;"
+                                                id="demoBin4"></div>
+        
+                                        <br><br>
+        
+                                        <button onclick="converterBinario()">Converter</button>
+                                </center>
+        
+                        </div>
+                        <section id="imgJogador">
+                                <img src="images/jogador.svg" class="jogador" alt="" style="height: 411px;">
+                        </section>
                 </div>
         </div>
 </body>
